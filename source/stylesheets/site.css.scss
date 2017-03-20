@@ -1,0 +1,76 @@
+.header h1 {
+  font-family: "museo-sans-condensed";
+  font-size: 55px;
+  font-weight: 400;
+}
+
+.header h2 {
+  font-family: "museo-sans-condensed";
+  font-size: 30px;
+  color: #999;
+  font-weight: 100;
+}
+
+.header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #ced3db;
+  margin-top: 80px;
+}
+
+.header .text {
+  margin-top: 80px;
+}
+
+.blurb {
+  margin-top: 30px;
+  font-family: "calluna";
+  color: #777;
+  line-height: 1.8;
+  font-size: 32px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #ced3db;
+}
+
+.blurb a, .blurb a:visited {
+  color: #dd18b6;
+}
+
+.blurb a:hover {
+  color: darken(#dd18b6, 10);
+}
+
+img.profile {
+  max-width: 300px;
+  border-radius: 50%;
+}
+
+.links:nth-child(1) {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.links:nth-child(1) {
+  .link i, .link span {
+    color: #555;
+  }
+}
+
+.links .link {
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.links .link i {
+  color: #777;
+}
+
+.links .link span {
+  margin-left: 5px;
+  vertical-align: baseline;
+  font-family: "museo-sans-condensed";
+  font-size: 30px;
+  color: #888;
+}
