@@ -57,6 +57,12 @@ img.profile {
   }
 }
 
+.links:nth-child(2) {
+  .link i, .link span {
+    font-size: 28px;
+  }
+}
+
 .links .link {
   color: #333;
   margin-bottom: 15px;
